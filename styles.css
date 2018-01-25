@@ -1,1 +1,75 @@
 /*styles for common web modules*/
+/*BUTTON STYLING**********/
+	.hlz-btn-link:hover {
+		text-decoration: none;
+	}
+	.hlz-btn {
+		color: #676767;
+		text-decoration: none;
+		margin: 0 auto;
+		font-size: 20px;
+		font-weight: lighter;
+		font-family: 'Open Sans';
+		text-transform: uppercase;
+		width: 90%;
+    		max-width: 338px;
+		position: relative; /*to allow positioning*/
+    		margin-top: -75px; /*to move button up into image whitespace*/
+		border-radius: 0;
+		border: 1px solid #fff;
+		background-color: rgb(221, 221, 221);
+	}
+	.hlz-btn:focus,
+	.hlz-btn:active:focus,
+	.hlz-btn.active:focus {
+		outline: none;
+	}
+	@media screen and (max-width: 374px) {
+	.hlz-btn.lng-txt-fix {
+		font-size: 18px;
+	}
+	}
+	@media screen and (min-width: 374px) {
+		.hlz-btn {
+			font-size: 24px;
+		}
+	}
+	@media screen and (min-width: 375px) and (max-width: 413px) {
+		.hlz-btn.lng-txt-fix {
+			font-size: 22px;
+		}
+	}
+	.hlz-btn-pnk,
+	.hlz-btn-pnk:hover {
+		color: #98002E;
+		background-color: #FBD5CC;
+	}
+	.right-caret.caret-red {
+		background-image: url('/text/gateway/ValentinesDayGG/2018/img/right_caret-red_24px.png');
+	}
+	.right-caret {
+		background-image: url('/text/gateway/ValentinesDayGG/2018/img/right_caret-gray_24px.png');
+		background-position: right;
+		background-repeat: no-repeat;
+		padding-right: 15px;
+	}
+	.hlz-btn-ltpnk,
+	.hlz-btn-ltpnk:hover {
+		color: #98002E;
+		background-color: #FDEBE1;
+	}
+	.hlz-btn-ltpnk.right-caret {
+		background-image: url('/text/gateway/ValentinesDayGG/2018/img/right_caret-red_24px.png');
+	}
+	.hz-btn-drkgray,
+	.hz-btn-drkgray:hover {
+		color: #fff;
+		background-color: rgba(0,0,0,0.5);
+		border: none;
+	}
+	.right-caret.caret-white {
+		background-image: url('/text/gateway/ValentinesDayGG/2018/img/right_caret-white_24px.png');
+	}
+	.hlz-btn-extr-mrgn-top {
+		margin-top: -125px;
+	}
