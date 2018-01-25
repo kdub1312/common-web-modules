@@ -14,7 +14,6 @@
 		width: 90%;
     		max-width: 338px;
 		position: relative; /*to allow positioning*/
-    		margin-top: -75px; /*to move button up into image whitespace*/
 		border-radius: 0;
 		border: 1px solid #fff;
 		background-color: rgb(221, 221, 221);
