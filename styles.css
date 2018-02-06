@@ -9,10 +9,11 @@
 		margin: 0 auto;
 		font-size: 20px;
 		font-weight: lighter;
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
 		text-transform: uppercase;
 		width: 90%;
-    		max-width: 338px;
+    	max-width: 338px;
 		position: relative; /*to allow positioning*/
 		border-radius: 0;
 		border: 1px solid #fff;
